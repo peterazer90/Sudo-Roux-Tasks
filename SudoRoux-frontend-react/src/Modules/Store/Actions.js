@@ -1,0 +1,12 @@
+const ON_CHANGE = 'ON_CHANGE';
+const ON_FOCUS = 'ON_FOCUS';
+const SUBMIT = 'SUBMIT';
+const RECEIVE_DATA = 'RECEIVE_DATA';
+const BUTTON_STATUS = 'BUTTON_STATUS';
+export default {
+  ON_CHANGE,
+  ON_FOCUS,
+  SUBMIT,
+  RECEIVE_DATA,
+  BUTTON_STATUS,
+};

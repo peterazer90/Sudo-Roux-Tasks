@@ -1,0 +1,90 @@
+/* start of default CSS Style ********************************************************************/
+body, section, header, div, label, h1, h2, h3, h4, h5, h6, button, span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* end of default CSS Style *********************************************************************/
+.container {
+    height: 100vh;
+}
+
+.popup {
+    max-width: 700px;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.popup-header {
+    justify-content: space-between;
+    background-color: #808080;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.progress {
+    width: 75%;
+    margin: 0 auto 15px auto;
+}
+
+.progress-bar {
+    width: 0;
+    height: 15px;
+}
+
+.h1 {
+    font-size: large;
+    font-weight: bolder;
+    color: #d4d4d4;
+    text-align: left;
+}
+
+.h2 {
+    font-size: medium;
+}
+
+.popup-close {
+    height: 35px;
+    width: 35px;
+}
+.popup-reset {
+    margin-top: 15px;
+}
+
+/* start of multiple CSS style for same properties *****************/
+.container, .popup-header {
+    display: flex;
+    align-items: center;
+}
+
+.popup, .progress {
+    border: 1px solid #d4d4d4;
+}
+
+.container, .popup-header {
+    width: 100%;
+    padding: 15px;
+}
+.popup-close, .popup-reset {
+    background-color: #d4d4d4;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.popup, .popup-close {
+    text-transform: capitalize;
+}
+
+/* end of multiple CSS style for same properties *****************/
